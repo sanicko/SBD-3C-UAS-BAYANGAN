@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_2" directorySegmentName="seg_0" id="39E08DF4-9A9A-A390-AF91-6AC5CF5CBEE4">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:23:05 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>18DE1921-2D91-76FD-041D-EC1874B4EF57</sourceEntity>
+<targetEntity>D27E015B-37A0-9B1F-BB38-DFD7CA69AFDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

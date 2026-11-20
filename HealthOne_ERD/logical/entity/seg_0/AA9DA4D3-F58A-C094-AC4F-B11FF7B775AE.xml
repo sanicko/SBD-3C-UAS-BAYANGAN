@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA9DA4D3-F58A-C094-AC4F-B11FF7B775AE" name="ROUTINE CHECKUP">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:23:14 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>18DE1921-2D91-76FD-041D-EC1874B4EF57</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="blood_pressure" id="F6A2AA15-4EB6-4B00-83E2-A00D2F02253E">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:23:30 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="height" id="4CEFE3BB-9A77-01E7-33B7-546EC6D5F118">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:24:30 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="weight" id="20A31B2A-DA9C-7208-589C-CEBB1B9D3B5F">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:24:50 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

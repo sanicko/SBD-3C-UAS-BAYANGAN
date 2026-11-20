@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="HealthOne_ERD" id="0F8C2261-E248-77D3-6B9D-C592C3BF19E6" version="3.5">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 02:11:58 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>0F8C2261-E248-77D3-6B9D-C592C3BF19E6</designId>
+</OSDM_Design>

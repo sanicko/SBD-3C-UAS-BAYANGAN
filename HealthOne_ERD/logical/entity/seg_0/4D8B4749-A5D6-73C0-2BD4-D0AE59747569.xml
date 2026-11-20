@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D8B4749-A5D6-73C0-2BD4-D0AE59747569" name="HOSPITAL">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:00:54 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hospital_id" id="1F964673-82BF-FBC4-420B-384A6B6E350F">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:01:08 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hospital_name" id="D9CD737F-1B33-3DCF-1D08-1F715DAA325D">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:02:19 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="3E75EF41-29ED-6011-87C0-5CA0FA306FDB">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:03:01 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_number" id="B6F1A6E9-234C-9B34-64E7-E89615F52553">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:03:25 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="31FA23F9-36F1-5D94-7FD9-98EC7D059930" name="HOSPITAL PK">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:01:50 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F964673-82BF-FBC4-420B-384A6B6E350F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

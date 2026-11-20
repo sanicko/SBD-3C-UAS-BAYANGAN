@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="49C20EF6-7B3B-C397-BA52-E3F6ACB238C5">
+<createdBy>Wisnu</createdBy>
+<createdTime>2026-11-20 03:35:23 UTC</createdTime>
+<ownerDesignName>HealthOne_ERD</ownerDesignName>
+<engineerTo>
+<item key="A880673B-33B0-1729-6605-B0A3D98AE7F8" value="true"/>
+</engineerTo>
+<sourcePk>4970A3A3-208B-8C24-5287-EB6404B79863</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>18DE1921-2D91-76FD-041D-EC1874B4EF57</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6EAB1303-62C3-D6DE-F287-9B37D612972F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
